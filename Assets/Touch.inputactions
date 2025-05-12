@@ -1,0 +1,45 @@
+{
+    "name": "Touch",
+    "maps": [
+        {
+            "name": "ARControls",
+            "id": "b32a6493-8b5c-4106-a36c-7d666fff2fb9",
+            "actions": [
+                {
+                    "name": "ToucherEcran",
+                    "type": "PassThrough",
+                    "id": "21c8d7d9-6932-4c0c-a9d3-dbdebc87d386",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e4f6c114-b386-4792-88ce-00d923a81eb2",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToucherEcran",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9ddcdf40-90b3-4575-96ec-d883ec17ea44",
+                    "path": "<Pointer>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToucherEcran",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
